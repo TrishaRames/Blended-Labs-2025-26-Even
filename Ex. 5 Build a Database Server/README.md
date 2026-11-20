@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: R Trisha
+* **Register Number**: 21224100061
+* **Date of Submission**: 20/11/2026 
 
 ---
 
@@ -84,11 +84,26 @@ Test the database server by connecting to it locally or remotely and performing 
 
 (Write the steps you followed in your own words)
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+Launch a new EC2 instance using Amazon Linux 2 AMI. Select an appropriate instance type and configure key pair and security group.
+
+Modify the security group to allow:
+
+SSH (Port 22) for remote access
+Database port (e.g., MySQL – 3306 or PostgreSQL – 5432)
+
+Connect to the EC2 instance using SSH from your local machine.
+
+
+Install a database server software such as MySQL, MariaDB, or PostgreSQL on the EC2 instance using package manager commands.
+
+
+Start the database service and configure basic settings such as root password and user privileges.
+
+Create a sample database and a table inside it. Insert a few records into the table.
+
+
+Test the database server by connecting to it locally or remotely and performing basic SQL queries.
+
 
 ---
 
@@ -96,19 +111,23 @@ Test the database server by connecting to it locally or remotely and performing 
 
 ### Screenshot 1: EC2 Instance for Database Server
 
-(Insert Screenshot Here)
+
+<img width="1138" height="547" alt="image" src="https://github.com/user-attachments/assets/0e520dd9-0679-459d-9723-cd5727a5a77d" />
+
 
 ---
 
 ### Screenshot 2: Database Service Running
 
-(Insert Screenshot Here)
+
+<img width="1135" height="573" alt="image" src="https://github.com/user-attachments/assets/08ef27d9-7bcc-40e5-a536-979800df5ba4" />
 
 ---
 
 ### Screenshot 3: Sample Database and Table
 
-(Insert Screenshot Here)
+
+<img width="1002" height="568" alt="image" src="https://github.com/user-attachments/assets/73201d3e-218e-447d-aa49-334287581ca1" />
 
 ---
 
